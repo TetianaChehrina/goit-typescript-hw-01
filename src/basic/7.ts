@@ -2,8 +2,8 @@ type Pages = {
   title: string;
   likes: number;
   accounts: string[];
-  status: string;
-  details?: {};
+  status: "open" | "close";
+  details?: { createAt: Date; upDateAt: Date };
 };
 
 const page1: Pages = {

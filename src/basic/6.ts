@@ -2,7 +2,7 @@ interface UserProfile {
   name: string;
   age: number;
   email: string;
-  address?: {};
+  address?: { city: string; country: string };
 }
 const mango = {
   name: "Mango",
